@@ -80,7 +80,7 @@ jobs:
       - lint
       - deploy
     if: failure()
-    runs-on: ubunto-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Output information
         run: |
